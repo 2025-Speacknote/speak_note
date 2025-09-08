@@ -1,0 +1,28 @@
+# LangChain 최신 계열 (Runnable 체인 호환)
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-upstage
+langsmith
+
+# 텍스트 분할기
+langchain-text-splitters
+
+# OpenAI 직접 사용
+openai
+
+# NLP 및 벡터 저장소
+transformers
+tokenizers
+faiss-cpu
+tiktoken
+PyMuPDF
+
+# 유틸리티
+requests
+beautifulsoup4
+python-dotenv
+
+
+flask
