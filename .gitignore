@@ -1,0 +1,50 @@
+# Local secrets and runtime data (never commit)
+.env
+*.env
+data/
+
+# Python caches/build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.spec
+
+# Repository-local generated/user artifacts
+.DS_Store
+*.json
+*.ipynb
+
+# Keep existing notebook cookbook files tracked by Git, but avoid adding new notebooks.
+# Keep frontend config needed to run the uploaded test environment.
+!speaknote-frontend/package.json
+!speaknote-frontend/package-lock.json
+!speaknote-frontend/jsconfig.json
+
+# Frontend dependencies/build outputs
+node_modules/
+.next/
+out/
+coverage/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Legacy/local experiment folders
+minwon_front/
+react_test/
+speaknote-client/
